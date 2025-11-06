@@ -1,20 +1,27 @@
-# Ignore Python virtual environment
+# ---- Python ----
 venv/
 */venv/
-
-# Ignore system files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+instance/
 
-# Ignore environment variables
+# ---- Environment ----
 .env
 
-# Ignore IDE files
+# ---- Node / React ----
+node_modules/
+build/
+dist/
+
+# ---- System ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE / Editor ----
 .vscode/
 .idea/
 
-# Ignore build artifacts
+# ---- Logs ----
 *.log
-*.sqlite3
