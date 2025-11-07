@@ -16,7 +16,7 @@ const Login: React.FC<LoginProps> = ({ onLogin, onSwitchToRegister }) => {
   const [loading, setLoading] = useState(false);
 
   // ✅ FIXED: Use environment variable
-  const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+  const API_BASE = process.env.REACT_APP_API_URL || 'http://13.62.164.30:5000/api';
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();

@@ -24,7 +24,7 @@ const EmotionCapture: React.FC<EmotionCaptureProps> = ({ user }) => {
   const [error, setError] = useState("");
   const [uploadedImage, setUploadedImage] = useState<string | null>(null);
 
-  const API_BASE = process.env.REACT_APP_API_URL || "http://localhost:5000";
+  const API_BASE = process.env.REACT_APP_API_URL || "http://13.62.164.30:5000/api";
 
   /**  Load models and start webcam **/
   useEffect(() => {

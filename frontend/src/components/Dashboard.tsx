@@ -31,7 +31,7 @@ const Dashboard: React.FC<DashboardProps> = ({ user }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
-  const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000';;
+  const API_BASE = process.env.REACT_APP_API_URL || 'http://13.62.164.30:5000/api';;
 
   const fetchDashboardData = async () => {
     try {
